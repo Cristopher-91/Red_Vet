@@ -1,0 +1,266 @@
+//!!1. do wrapperów zrobić mixin z paddingiem stałym i kolorem do wyboru?
+//2. Przygotować menu
+//3. Przygotować sekcję komentarzy
+//4. Zanimować elementy dodatkowe
+//5. ScrollSpy dołączyć ??
+//6. Dodać footer
+
+
+$font-QS: 'Quicksand';
+$font-Exo: 'Exo';
+$font-Lato: 'Lato';
+
+$color-turcus-dark: #17ae92;
+$color-turcus-bright: #5DBCD2;
+$color-gray-dark: #A5A5A5;
+$color-gray-bright: #EBEBEB;
+$color-green-dark: #016857;
+$color-green-bright: #85B4AA;
+$color-orange: #F9A13D;
+
+
+/*General*/
+html, body{
+    background-color: #ffff;
+    color: #000;
+    font-family: $font-QS !important;
+    font-size: 18px;
+    margin: 0;
+    margin-top: 0px !important;
+
+    .sr .load-hidden{
+        visibility: hidden;
+    }
+
+    a:link{
+        text-decoration: none;
+    }
+}
+
+
+
+
+@mixin paragraph-title($color){
+    display: inline-block;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color: $color;
+}
+
+.paragraph-title-green{
+    @include paragraph-title($color-turcus-dark)
+}
+
+.paragraph-title-white{
+    @include paragraph-title(white)
+}
+
+@mixin wrapper($color) {
+    padding: 50px 0px;
+    background-color: $color;
+    
+}
+
+.button{
+    padding: 14px 28px;
+    background-color: $color-turcus-dark;
+    border: 2px solid $color-turcus-dark;
+    border-radius: 30px;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+
+        &:hover{
+            color: $color-turcus-dark;
+            background-color: #fff;
+        }
+
+}
+
+/*------------------------------------*/
+
+/*Header*/
+.header-wrapper{
+    background: url(Images/Head-Photo-BG.jpg) no-repeat center center fixed;
+    background-size: cover; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.header-container{
+
+}
+
+.sub-header-text{
+    font-size: 40px;
+    font-family: 'Uni-Sans-Thin'; 
+    color: #fff;
+    margin-bottom: 0px !important; 
+    text-shadow: 3px 3px 5px #000;
+}
+
+.header-text{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Uni-Sans-Heavy';
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 5px !important;
+    text-shadow: 3px 3px 5px #000;
+}
+
+/*------------------------------------*/
+
+/*About*/
+.about-wrapper{
+    @include wrapper(white);
+}
+
+.about-photo{
+    
+    img{
+        width: 100%;
+    }
+}
+/*------------------------------------*/
+
+
+
+
+/*Services*/
+.services-wrapper{
+    @include wrapper($color-gray-bright);
+}
+
+.services-box{
+    width: 100%;
+    border: 1px solid red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.services-box-icon{
+    height: 105px;
+}
+.services-box-content{
+
+}
+
+/*------------------------------------*/
+
+
+/*Staff*/
+.staff-wrapper{
+    @include wrapper(#fff);
+}
+
+.staff-photo{
+    img{
+        border-radius: 50%;
+    }
+}
+
+
+
+/*------------------------------------*/
+
+/*Contact*/
+.contact-wrapper{
+    @include wrapper($color-gray-bright);
+}
+
+
+label{
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.label-rodo{
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.form-control{
+    border-radius: 20px;
+}
+
+.contact-form-button{
+    @extend .button;
+    margin-top: 20px;
+}
+
+/*------------------------------------*/
+
+
+
+/*Footer*/
+.footer-wrapper{
+    background-color: $color-turcus-dark;
+    color: white;
+    padding: 15px 0px;
+
+        p{
+            margin: 0px;
+            font-size: 12px;
+        }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Navbar*/
+.navbar{
+    font-size: 14px;
+    font-weight: 700;
+
+    a:link, a:visited {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    a:hover, a:focus{
+        color: $color-turcus-dark;
+        transition: 0.5s;
+    }
+}
+
+.navbar-inverse{
+    background-color: $color-gray-bright !important;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.nav-item{
+    margin: 0px 10px;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    
+        &:hover{
+            background-color: red;
+        }
+}
+
+
+.navbar-brand-logo{
+    width: 125px;
+}
