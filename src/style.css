@@ -14,14 +14,14 @@ html, body {
 .paragraph-title-green {
   display: inline-block;
   font-weight: 700;
-  margin-bottom: 50px;
+  margin-bottom: 3vh;
   text-transform: uppercase;
   color: #17ae92; }
 
 .paragraph-title-white {
   display: inline-block;
   font-weight: 700;
-  margin-bottom: 50px;
+  margin-bottom: 3vh;
   text-transform: uppercase;
   color: white; }
 

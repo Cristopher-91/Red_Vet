@@ -43,7 +43,7 @@ html, body{
 @mixin paragraph-title($color){
     display: inline-block;
     font-weight: 700;
-    margin-bottom: 50px;
+    margin-bottom: 3vh;
     text-transform: uppercase;
     color: $color;
 }
@@ -213,14 +213,6 @@ label{
         }
 
 }
-
-
-
-
-
-
-
-
 
 
 

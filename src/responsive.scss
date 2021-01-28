@@ -1,0 +1,51 @@
+@media screen and (max-width:767px) {
+    p,.button{
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+
+    h4{
+        font-size: 24px;
+    }
+
+    h5 {
+        font-size: 20px;
+    }
+
+    .header-text{
+        font-size: 52px;
+    }
+
+    .sub-header-text{
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    p,.button{
+        font-size: 12px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    h4{
+        font-size: 16px;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+
+    .header-text{
+        font-size: 36px;
+    }
+
+    .sub-header-text{
+        font-size: 24px;
+    }
+}
