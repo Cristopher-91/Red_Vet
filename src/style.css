@@ -41,7 +41,7 @@ html, body {
 /*------------------------------------*/
 /*Header*/
 .header-wrapper {
-  background: url(Images/Head-Photo-BG.jpg) no-repeat center center fixed;
+  background: url(../img/Head-Photo-BG.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
   display: flex;
