@@ -71,7 +71,9 @@ html, body{
     text-transform: uppercase;
     transition: 0.5s ease-in-out;
     cursor: pointer;
-
+        &:focus{
+        outline: none;
+        }
         &:hover{
             color: $color-turcus-dark;
             background-color: #fff;
