@@ -1,0 +1,18 @@
+1) O nas
+    a) Personel
+    b) Placówka
+2) Usługi
+    a) Szczepienia
+    b) Kastracja
+    c) Chirurgia tkanek
+    c) Wizyty domowe
+    d) Paszport
+    g) Czipowanie zwierząt
+    h) Profilaktyka
+    i) Badania laboratoryjne
+    
+
+4) Aktualnosci
+5) Porady (Nie front)
+6) Opinie
+7) Kontakt

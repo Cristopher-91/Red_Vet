@@ -20,7 +20,6 @@
 
   <!--Regular JS-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="js/Navbar-Change.js"></script>
   <script src="js/script.js"></script>
 
 
@@ -28,34 +27,51 @@
 </head>
 
 <body>
-  <!--
       <nav class="navbar fixed-top navbar-expand-lg" id="nav-main">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="img/Red-Vet-Logo.png" alt="Logo Przychodni Red-Vet"
-            class="navbar-brand-logo" id="nav-logo" /></a>
+        <a class="navbar-brand" href="#"><img src="img/Red-Vet-Logo-Flatt.png" alt="Logo Przychodni Red-Vet"
+            class="navbar-brand-logo navbar-brand-logo-white" id="nav-logo" /></a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="#about">O nas</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services">Usługi</a></li>
-          <li class="nav-item"><a class="nav-link" href="#staff">Personel</a></li>
-          <li class="nav-item"><a class="nav-link" href="#reviews">Opinie</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="about-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">O nas</a>
+            <div class="dropdown-menu" aria-labelledby="about-dropdown">
+              <a class="dropdown-item" href="/personel">Personel</a>
+              <a class="dropdown-item" href="/placowka">Placówka</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="services-dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Usługi</a>
+            <div class="dropdown-menu" aria-labelledby="about-dropdown">
+              <a class="dropdown-item" href="/szczepienia">Szczepienia</a>
+              <a class="dropdown-item" href="/kastracja">Kastracja</a>
+              <a class="dropdown-item" href="/chirurgia">Chirurgia</a>
+              <a class="dropdown-item" href="/wizyty-domowe">Wizyty domowe</a>
+              <a class="dropdown-item" href="/paszporty-zwierzece">Paszporty zwierzęce</a>
+              <a class="dropdown-item" href="/czipowanie">Czipowanie</a>
+              <a class="dropdown-item" href="/profilaktyka">Profilaktyka</a>
+              <a class="dropdown-item" href="/badania-laboratoryjne">Badania laboratoryjne</a>
+            </div>
+          </li></li>
+          <li class="nav-item"><a class="nav-link" href="#aktualnosci">Aktualności</a></li>
+          <li class="nav-item"><a class="nav-link" href="#porady">Porady</a></li>
+          <li class="nav-item"><a class="nav-link" href="#opinie">Opinie</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontakt">Kontakt</a></li>
         </ul>
       </div>
     </div>
   </nav>
-  -->
 
 
 
 
   <section id="header">
     <div class="container-fluid header-wrapper">
-      <div class="header-container">
+      <div>
         <p class="sub-header-text animation-top">Przychodnia weterynaryjna w Głuszycy</p>
         <p class="header-text animation-top"> Red - Vet</p>
         <button class="button animation-top">Skontaktuj się z nami</button>
