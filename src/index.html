@@ -172,12 +172,12 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xs-12">
-            <h2 class="paragraph-title-green">Skontaktuj się z nami</h2>
+            <h2 class="paragraph-title-green">Kontakt</h2>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-12 col-md-6">
-            <div id="contact-info">
+            <div id="contact-info animation-left">
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title"><strong>Przychodnia weterynaryjna<br />Red-Vet</strong></h5>
@@ -199,7 +199,7 @@
             </div>
           </div>
           <div class="col-sm-12 col-md-6">
-            <div id="contact-form">
+            <div id="contact-form animation-down">
               <form action="#">
                 <div class="form-group">
                   <label for="contact-name">Imię:</label>
@@ -218,7 +218,7 @@
                 </div>
                 <div class="checkbox">
                   <label class="label-rodo"><input type="checkbox" required> Akceptuję, że Administratorem podanych
-                    przeze mnie danych osobowych będzie Red-Vet , ul. Kamieniogórska 25, 62-051 Wiry, NIP: 00000000000,
+                    przeze mnie danych osobowych będzie Red-Vet, ul. Kamieniogórska 25, 62-051 Wiry, NIP: 00000000000,
                     kontakt: red@vet.pl. Podane dane będą przetwarzane wyłącznie w celu udzielenia odpowiedzi na
                     zapytanie zgodnie z Art. 6 Ust. 1 Lit. B Ogólnego Rozporządzenia Ochrony Danych Osobowych 2016/679 z
                     dnia 27 kwietnia 2016 r., tj. w celu przygotowania oferty zgodnie z przesłanym zapytaniem.
@@ -279,13 +279,33 @@
     });
 
     sr.reveal('.animation-top', {
-      reset: false,
+      reset: true,
       delay: 100,
       duration: 1000,
       distance: '30px',
       scale: '0.85',
       viewFactor: 0.5,
       origin: 'top'
+    });
+
+    sr.reveal('.animation-left', {
+      reset: true,
+      delay: 100,
+      duration: 1000,
+      distance: '130px',
+      scale: '0.85',
+      viewFactor: 0.5,
+      origin: 'left'
+    });
+    
+    sr.reveal('.animation-right', {
+      reset: true,
+      delay: 100,
+      duration: 1000,
+      distance: '130px',
+      scale: '0.85',
+      viewFactor: 0.5,
+      origin: 'right'
     });
 
   </script>

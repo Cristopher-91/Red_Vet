@@ -29,7 +29,7 @@ html, body {
   padding: 14px 28px;
   background-color: #17ae92;
   border: 2px solid #17ae92;
-  border-radius: 30px;
+  border-radius: 10px;
   color: white;
   text-transform: uppercase;
   transition: 0.5s ease-in-out;
@@ -115,9 +115,6 @@ label {
 .label-rodo {
   font-size: 10px;
   cursor: pointer; }
-
-.form-control {
-  border-radius: 20px; }
 
 .contact-form-button {
   margin-top: 20px; }

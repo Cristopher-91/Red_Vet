@@ -66,7 +66,7 @@ html, body{
     padding: 14px 28px;
     background-color: $color-turcus-dark;
     border: 2px solid $color-turcus-dark;
-    border-radius: 30px;
+    border-radius: 10px;
     color: white;
     text-transform: uppercase;
     transition: 0.5s ease-in-out;
@@ -188,10 +188,6 @@ label{
 .label-rodo{
     font-size: 10px;
     cursor: pointer;
-}
-
-.form-control{
-    border-radius: 20px;
 }
 
 .contact-form-button{
