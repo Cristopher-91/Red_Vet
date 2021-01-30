@@ -145,6 +145,11 @@ label {
   .navbar .nav-link:hover, .navbar .nav-link:focus {
     color: #17ae92;
     transition: 0.5s; }
+  .navbar .navbar-toggler {
+    border: none; }
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
 
 .navbar-white {
   background-color: white !important;
@@ -155,7 +160,7 @@ label {
     text-decoration: none;
     color: #17ae92; }
   .navbar-white .nav-link:hover, .navbar-white .nav-link:focus {
-    color: #016857; }
+    color: #016857 !important; }
 
 .navbar-brand-logo-white {
   filter: brightness(0) invert(1); }
