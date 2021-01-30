@@ -13,6 +13,7 @@ $(document).ready(function () {
 
     let navbar = document.getElementById("nav-main");
     let navLogo = document.getElementById("nav-logo");
+    let navToggler = document.getElementById("nav-hamburger")
 
     let change = navbar.offsetTop;
 
@@ -20,11 +21,20 @@ $(document).ready(function () {
         if (window.pageYOffset > change) {
             navbar.classList.add("navbar-white");
             navLogo.classList.remove("navbar-brand-logo-white");
+            navToggler.classList.add("navbar-hamburger-green");
 
         } else {
             navbar.classList.remove("navbar-white");
             navLogo.classList.add("navbar-brand-logo-white");
+            navToggler.classList.remove("navbar-hamburger-green");
         }
     }
 
+});
+
+//Navbar hamburger
+$(document).ready(function(){
+	$('#nav-hamburger').click(function(){
+		$(this).toggleClass('open');
+	});
 });
