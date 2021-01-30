@@ -133,7 +133,10 @@ label {
   padding: 15px 0px; }
   .footer-wrapper p {
     margin: 0px;
-    font-size: 12px; }
+    font-size: 14px; }
+  .footer-wrapper a {
+    color: white;
+    text-decoration: none; }
 
 /*Navbar*/
 .navbar {

@@ -17,7 +17,7 @@
   .sub-header-text {
     font-size: 32px; } }
 @media screen and (max-width: 575px) {
-  p, .button {
+  p, .button, .footer-wrapper p {
     font-size: 12px; }
 
   h2 {
