@@ -5,7 +5,6 @@
 //5. ScrollSpy dołączyć ??
 //6. Dodać footer
 
-
 $font-QS: 'Quicksand';
 $font-Exo: 'Exo';
 $font-Lato: 'Lato';
@@ -28,6 +27,8 @@ html, body{
     margin: 0;
     margin-top: 0px !important;
 
+    scroll-behavior: smooth;
+
     .sr .load-hidden{
         visibility: hidden;
     }
@@ -37,6 +38,9 @@ html, body{
     }
 }
 
+button:focus{
+    outline: none;
+}
 
 
 
@@ -71,9 +75,9 @@ html, body{
     text-transform: uppercase;
     transition: 0.5s ease-in-out;
     cursor: pointer;
-        &:focus{
+        /*&:focus{
         outline: none;
-        }
+        }*/
         &:hover{
             color: $color-turcus-dark;
             background-color: #fff;
@@ -220,6 +224,41 @@ label{
         }
 
 }
+
+/*Scroll Top Button*/
+#scroll-top-button{
+    display: inline-block;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 50px;
+    bottom: 85px;
+    background-color: $color-orange;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 500;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+
+}
+
+#scroll-top-button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+
+#scroll-top-button:hover {
+    cursor: pointer;
+    background-color: #333;
+
+    svg{
+        color: white;
+    }
+  }
+#scroll-top-button:active {
+    background-color: #555;
+  }
+
 
 
 
@@ -383,3 +422,4 @@ label{
     left: 50%;
   }
   
+

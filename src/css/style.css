@@ -5,11 +5,15 @@ html, body {
   font-family: "Quicksand" !important;
   font-size: 18px;
   margin: 0;
-  margin-top: 0px !important; }
+  margin-top: 0px !important;
+  scroll-behavior: smooth; }
   html .sr .load-hidden, body .sr .load-hidden {
     visibility: hidden; }
   html a:link, body a:link {
     text-decoration: none; }
+
+button:focus {
+  outline: none; }
 
 .paragraph-title-green {
   display: inline-block;
@@ -33,9 +37,10 @@ html, body {
   color: white;
   text-transform: uppercase;
   transition: 0.5s ease-in-out;
-  cursor: pointer; }
-  .button:focus, .contact-form-button:focus {
-    outline: none; }
+  cursor: pointer;
+  /*&:focus{
+  outline: none;
+  }*/ }
   .button:hover, .contact-form-button:hover {
     color: #17ae92;
     background-color: #fff; }
@@ -137,6 +142,33 @@ label {
   .footer-wrapper a {
     color: white;
     text-decoration: none; }
+
+/*Scroll Top Button*/
+#scroll-top-button {
+  display: inline-block;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  right: 50px;
+  bottom: 85px;
+  background-color: #F9A13D;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 500;
+  transition: background-color .3s, opacity .5s, visibility .5s; }
+
+#scroll-top-button.show {
+  opacity: 1;
+  visibility: visible; }
+
+#scroll-top-button:hover {
+  cursor: pointer;
+  background-color: #333; }
+  #scroll-top-button:hover svg {
+    color: white; }
+
+#scroll-top-button:active {
+  background-color: #555; }
 
 /*Navbar*/
 .navbar {
