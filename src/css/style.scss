@@ -149,16 +149,18 @@ button:focus{
 }
 
 .services-box{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
     width: 100%;
-    border: 1px solid red;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0px;
     text-align: center;
     padding: 20px;
 }
 
-.services-box-icon{
-    height: 105px;
+.services-box-icon img{
+    width: 75px;
+    margin-bottom: .75rem;
 }
 .services-box-content{
 
@@ -174,7 +176,7 @@ button:focus{
 
 .staff-photo{
     img{
-        border-radius: 50%;
+        border-radius: .25rem;
     }
 }
 

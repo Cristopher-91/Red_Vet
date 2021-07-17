@@ -1,3 +1,10 @@
+@media screen and (max-width:991px) {
+    img, .card{
+        margin-bottom: 1rem;
+     }
+}
+
+
 @media screen and (max-width:767px) {
     p,.button{
         font-size: 15px;
@@ -11,7 +18,7 @@
         font-size: 24px;
     }
 
-    h5 {
+    h5, label {
         font-size: 20px;
     }
 
@@ -25,7 +32,7 @@
 }
 
 @media screen and (max-width:575px) {
-    p,.button, .footer-wrapper p{
+    p,.button, .footer-wrapper p {
         font-size: 12px;
     }
 
@@ -37,7 +44,7 @@
         font-size: 16px;
     }
 
-    h5 {
+    h5, label {
         font-size: 14px;
     }
 
