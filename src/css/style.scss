@@ -23,9 +23,11 @@ html, body{
     background-color: #ffff;
     color: #000;
     font-family: $font-QS !important;
-    font-size: 18px;
+    font-size: 16px;
     margin: 0;
     margin-top: 0px !important;
+    width: 100%;
+
 
     scroll-behavior: smooth;
 
@@ -33,9 +35,10 @@ html, body{
         visibility: hidden;
     }
 
-    a:link{
-        text-decoration: none;
-    }
+}
+
+a:link{
+    text-decoration: none;
 }
 
 button:focus{
@@ -47,7 +50,7 @@ button:focus{
 @mixin paragraph-title($color){
     display: inline-block;
     font-weight: 700;
-    margin-bottom: 3vh;
+    margin-bottom: 30px;
     text-transform: uppercase;
     color: $color;
 }
@@ -96,7 +99,6 @@ button:focus{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    //padding: 0px;
 
 }
 
@@ -146,24 +148,32 @@ button:focus{
 /*Services*/
 .services-wrapper{
     @include wrapper($color-gray-bright);
+    box-sizing: border-box;
 }
 
 .services-box{
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.2);
-    width: 100%;
-    margin: 20px 0px;
     text-align: center;
-    padding: 20px;
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+    &>div{
+        flex: 1 1 auto;
+    }
 }
+
 
 .services-box-icon img{
-    width: 75px;
-    margin-bottom: .75rem;
+    width: 4em;
+    //margin-bottom: .75rem;
 }
-.services-box-content{
 
+.boxer{
+    box-sizing: border-box;
 }
 
 /*------------------------------------*/
@@ -332,6 +342,7 @@ label{
     .dropdown-item:link, .dropdown-item:visited {
         color: black;
         text-decoration: none;
+        background-color: transparent;
     }
 
     .dropdown-item:hover, .dropdown-item:focus{

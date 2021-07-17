@@ -1,13 +1,16 @@
 @media screen and (max-width:991px) {
-    img, .card{
-        margin-bottom: 1rem;
-     }
+    // img, .card{
+    //     margin-bottom: 1rem;
+    //  }
 }
 
 
 @media screen and (max-width:767px) {
-    p,.button{
-        font-size: 15px;
+
+
+
+    body, p,.button{
+        font-size: 14px;
     }
 
     h2{
@@ -29,10 +32,16 @@
     .sub-header-text{
         font-size: 32px;
     }
+
+    .navbar-brand-logo{
+        width: 200px;
+    }
+
+
 }
 
 @media screen and (max-width:575px) {
-    p,.button, .footer-wrapper p {
+    body, p,.button, .footer-wrapper p {
         font-size: 12px;
     }
 
@@ -54,5 +63,9 @@
 
     .sub-header-text{
         font-size: 24px;
+    }
+
+    .navbar-brand-logo{
+        width: 175px;
     }
 }
