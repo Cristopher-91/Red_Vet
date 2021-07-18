@@ -157,25 +157,19 @@ button:focus{
     box-shadow: 0 5px 20px rgba(0,0,0,0.2);
     text-align: center;
     padding: 2rem 1rem;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
+    transition: all ease-out .5s;
 
-    &>div{
-        flex: 1 1 auto;
+    &:hover{
+        box-shadow: 0 15px 25px rgba(0,0,0,0.4);
+        //border: 5px solid $color-turcus-dark;
     }
+
 }
 
 
 .services-box-icon img{
     width: 4em;
-    //margin-bottom: .75rem;
 }
-
-.boxer{
-    box-sizing: border-box;
-}
-
 /*------------------------------------*/
 
 
