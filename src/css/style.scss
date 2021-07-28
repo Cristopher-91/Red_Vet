@@ -156,20 +156,56 @@ button:focus{
     border-radius: 5px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.2);
     text-align: center;
-    padding: 2rem 1rem;
     transition: all ease-out .5s;
+    overflow: hidden;
 
     &:hover{
-        box-shadow: 0 15px 25px rgba(0,0,0,0.4);
-        //border: 5px solid $color-turcus-dark;
+        box-shadow: 0 15px 25px rgba(0,0,0,0.8);
+        cursor: pointer;
+
+        .services-box-icon img{
+            animation: spin .5s;
+        }
+
+        .services-box-content{
+            color: var(--slideTextColor);
+            background-position: -50% 100%;
+        }
+        
     }
 
 }
 
+    .services-box-content{
+        padding: 1em 0 2em 0;
+        
+        --initialTextColor: #000                ;
+        --slideTextColor: #FFF;
 
-.services-box-icon img{
-    width: 4em;
-}
+        --initialBgColor: #FFF;
+        --slideBgColor: #17ae92;
+
+        color: var(--initialTextColor);
+
+        background-image: linear-gradient(180deg,
+            var(--initialBgColor) 0%,
+            var(--initialBgColor) 50%,
+            var(--slideBgColor) 50%,
+            var(--slideBgColor) 100%);
+        background-size: 100% 200%;
+        transition: background-position .3s cubic-bezier(.47, .1, 1, .63), color .2s linear;
+        transition-delay: 0.0s, 0.15s;
+    
+    }
+
+    .services-box-icon{
+        padding: 2em 0 0 0;
+
+        img{
+            width: 5em;
+            margin-bottom: 2em;
+        }
+    }
 /*------------------------------------*/
 
 
@@ -430,3 +466,14 @@ label{
   }
   
 
+
+
+ //animations
+ 
+ @keyframes spin{
+    from { transform: rotate(0deg)}
+    to { transform: rotate(25deg)}
+ }
+
+
+ 

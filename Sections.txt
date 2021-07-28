@@ -5,8 +5,8 @@
     a) Szczepienia
     b) Kastracja
     c) Chirurgia tkanek
-    c) Wizyty domowe
-    d) Paszport
+    d) Wizyty domowe
+    d) Paszporty
     g) Czipowanie zwierząt
     h) Profilaktyka
     i) Badania laboratoryjne
