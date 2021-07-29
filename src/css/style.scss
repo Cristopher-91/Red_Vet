@@ -28,13 +28,19 @@ html, body{
     margin-top: 0px !important;
     width: 100%;
 
-
     scroll-behavior: smooth;
 
     .sr .load-hidden{
         visibility: hidden;
     }
+}
 
+img{
+    max-width: 100%;
+}
+
+p.margined{
+    margin-bottom: 2rem;
 }
 
 a:link{
@@ -43,6 +49,13 @@ a:link{
 
 button:focus{
     outline: none;
+}
+
+h3{
+    color: $color-turcus-bright;
+    border-bottom: 2px solid $color-turcus-bright;
+    line-height: 2;
+    
 }
 
 
@@ -134,12 +147,27 @@ button:focus{
     @include wrapper(white);
 }
 
-.about-photo{
+// .about-photo{
     
-    img{
-        width: 100%;
+//     img{
+//         width: 100%;
+//     }
+// }
+
+.image-about{
+    width: 100vw;
+    height: 35vh;
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+}
+
+.h3-link:hover{
+    h3{
+        color: $color-turcus-dark;
     }
 }
+
 /*------------------------------------*/
 
 
@@ -483,7 +511,7 @@ label{
  @keyframes bounce {
 	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
 	40% {transform: translateY(-20px);}
-	60% {transform: translateY(-10px);}
+	60% {transform: translateY(-10gpx);}
  }
 
 

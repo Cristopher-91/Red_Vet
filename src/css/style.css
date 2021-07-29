@@ -11,11 +11,22 @@ html, body {
   html .sr .load-hidden, body .sr .load-hidden {
     visibility: hidden; }
 
+img {
+  max-width: 100%; }
+
+p.margined {
+  margin-bottom: 2rem; }
+
 a:link {
   text-decoration: none; }
 
 button:focus {
   outline: none; }
+
+h3 {
+  color: #5DBCD2;
+  border-bottom: 2px solid #5DBCD2;
+  line-height: 2; }
 
 .paragraph-title-green {
   display: inline-block;
@@ -86,8 +97,12 @@ button:focus {
   padding: 50px 0px;
   background-color: white; }
 
-.about-photo img {
-  width: 100%; }
+.image-about {
+  width: 100vw;
+  height: 35vh; }
+
+.h3-link:hover h3 {
+  color: #17ae92; }
 
 /*------------------------------------*/
 /*Services*/
@@ -328,6 +343,6 @@ label {
   40% {
     transform: translateY(-20px); }
   60% {
-    transform: translateY(-10px); } }
+    transform: translateY(-10gpx); } }
 
 /*# sourceMappingURL=style.css.map */
