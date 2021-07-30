@@ -68,4 +68,21 @@
     .navbar-brand-logo{
         width: 175px;
     }
+
+    .paralax{
+        background-attachment: scroll;
+        background-size: 100%;
+        background-position: top;
+
+        justify-content: center;
+    }
+
+    .paralax-content{
+        margin-top: 60%;
+        text-align: center;
+        
+        p{
+            color: black;
+        }
+    }
 }
