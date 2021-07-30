@@ -28,6 +28,13 @@ h3 {
   border-bottom: 2px solid #5DBCD2;
   line-height: 2; }
 
+.paralax {
+  min-height: 65vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .paragraph-title-green {
   display: inline-block;
   font-weight: 700;
@@ -50,13 +57,19 @@ h3 {
   color: white;
   text-transform: uppercase;
   transition: 0.5s ease-in-out;
-  cursor: pointer;
-  /*&:focus{
-  outline: none;
-  }*/ }
+  cursor: pointer; }
   .button:hover, .contact-form-button:hover {
     color: #17ae92;
     background-color: #fff; }
+
+.button-small {
+  padding: 10px 25px;
+  background-color: #F9A13D;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.5s ease-in-out; }
+  .button-small:hover {
+    background-color: #5DBCD2; }
 
 /*------------------------------------*/
 /*Header*/
@@ -103,6 +116,15 @@ h3 {
 
 .h3-link:hover h3 {
   color: #17ae92; }
+
+/*------------------------------------*/
+/*News*/
+.news-wrapper {
+  background-image: url(../img/News-4-BG.jpg);
+  padding: 50px 0px; }
+  .news-wrapper p {
+    color: white;
+    text-align: justify; }
 
 /*------------------------------------*/
 /*Services*/

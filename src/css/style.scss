@@ -58,7 +58,13 @@ h3{
     
 }
 
-
+.paralax{
+    min-height: 65vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 @mixin paragraph-title($color){
     display: inline-block;
@@ -91,9 +97,6 @@ h3{
     text-transform: uppercase;
     transition: 0.5s ease-in-out;
     cursor: pointer;
-        /*&:focus{
-        outline: none;
-        }*/
         &:hover{
             color: $color-turcus-dark;
             background-color: #fff;
@@ -101,6 +104,19 @@ h3{
 
 }
 
+
+.button-small{
+    padding: 10px 25px;
+    background-color: $color-orange;
+    //color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+        &:hover{
+            background-color: $color-turcus-bright;
+        }
+
+}
 /*------------------------------------*/
 
 /*Header*/
@@ -170,8 +186,19 @@ h3{
 
 /*------------------------------------*/
 
+/*News*/
 
+.news-wrapper{
+    background-image: url(../img/News-4-BG.jpg);
+    padding: 50px 0px;
 
+    p{
+        color: white;
+        text-align: justify;
+    }
+}
+
+/*------------------------------------*/
 
 /*Services*/
 .services-wrapper{
