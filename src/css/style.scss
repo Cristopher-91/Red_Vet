@@ -269,6 +269,25 @@ h3{
 /*------------------------------------*/
 
 
+/*Shop*/
+
+.shop-wrapper{
+    background-image: url(../img/News-6-BG.jpeg);
+    padding: 90px 0px;
+
+    p{
+        color: white;
+        text-align: justify;
+    }
+}
+
+/*------------------------------------*/
+
+
+
+
+
+
 /*Staff*/
 .staff-wrapper{
     @include wrapper(#fff);

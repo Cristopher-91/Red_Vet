@@ -168,6 +168,15 @@ h3 {
     margin-bottom: 2em; }
 
 /*------------------------------------*/
+/*Shop*/
+.shop-wrapper {
+  background-image: url(../img/News-6-BG.jpeg);
+  padding: 90px 0px; }
+  .shop-wrapper p {
+    color: white;
+    text-align: justify; }
+
+/*------------------------------------*/
 /*Staff*/
 .staff-wrapper {
   padding: 50px 0px;
