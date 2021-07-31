@@ -43,8 +43,9 @@ p.margined{
     margin-bottom: 2rem;
 }
 
-a:link{
+a:link, a:visited{
     text-decoration: none;
+    color: inherit;
 }
 
 button:focus{
@@ -272,11 +273,10 @@ h3{
 /*Shop*/
 
 .shop-wrapper{
-    background-image: url(../img/News-6-BG.jpeg);
+    background-image: url(../img/Shop-4-BG.jpeg);
     padding: 90px 0px;
 
     p{
-        color: white;
         text-align: justify;
     }
 }
@@ -306,8 +306,17 @@ h3{
 /*Contact*/
 .contact-wrapper{
     @include wrapper($color-gray-bright);
+
+    p{
+        margin-bottom: 5px;
+    }
 }
 
+
+.indent{
+    //margin-right: calc(25px + 1em);
+    margin-right: 2.5em;
+}
 
 label{
     margin-bottom: 5px;
@@ -322,6 +331,11 @@ label{
 .contact-form-button{
     @extend .button;
     margin-top: 20px;
+}
+
+.icon{
+    max-height: 1.5em;
+    margin-right: 1em;
 }
 
 /*------------------------------------*/
