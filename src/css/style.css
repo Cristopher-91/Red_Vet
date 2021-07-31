@@ -64,6 +64,7 @@ h3 {
     background-color: #fff; }
 
 .button-small {
+  display: inline-block;
   padding: 10px 25px;
   background-color: #F9A13D;
   border: 2px solid black;
