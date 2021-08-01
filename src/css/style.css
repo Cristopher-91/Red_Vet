@@ -4,15 +4,17 @@
 1) Czcionka większa?
 2) messenger podpiąć?
 3) Efekty animowania rzeczy
-
-
+4) Ikonka home w menu?
+!!5) Zmniejszać czcionkę h3? na mniejszych ekranach
+6) Czy ustalić wysokość service card na min 307px na większych ekranach?
+7) Dodać marginesy w p na małych ekranach lub padding
 */
 /*General*/
 html, body {
   background-color: #ffff;
   color: #000;
   font-family: "Quicksand" !important;
-  font-size: 16px;
+  font-size: 18px;
   margin: 0;
   margin-top: 0px !important;
   width: 100%;
@@ -36,7 +38,7 @@ button:focus {
 h3 {
   color: #5DBCD2;
   border-bottom: 2px solid #5DBCD2;
-  line-height: 2; }
+  padding: 10px 0px; }
 
 .paralax {
   min-height: 65vh;
@@ -264,7 +266,7 @@ label {
 
 /*Navbar*/
 .navbar {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700; }
   .navbar .nav-link:link, .navbar .nav-link:visited {
     text-decoration: none;
