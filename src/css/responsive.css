@@ -1,12 +1,15 @@
 @media screen and (max-width: 767px) {
   body, p, .button {
-    font-size: 14px; }
+    font-size: 16px; }
 
   h2 {
     font-size: 28px; }
 
+  h3 {
+    font-size: 24px; }
+
   h4 {
-    font-size: 20px; }
+    font-size: 22px; }
 
   h5, label {
     font-size: 20px; }
@@ -21,16 +24,19 @@
     width: 200px; } }
 @media screen and (max-width: 575px) {
   body, p, .button, .footer-wrapper p {
-    font-size: 12px; }
+    font-size: 14px; }
 
   h2 {
+    font-size: 24px; }
+
+  h3 {
     font-size: 20px; }
 
   h4 {
-    font-size: 16px; }
+    font-size: 18px; }
 
   h5, label {
-    font-size: 14px; }
+    font-size: 16px; }
 
   .header-text {
     font-size: 36px; }

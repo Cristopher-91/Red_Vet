@@ -5,6 +5,20 @@
 //5. ScrollSpy dołączyć ??
 //6. Dodać footer
 
+/* Do zrobienia/rozważenia
+
+1) Czcionka większa?
+2) messenger podpiąć?
+3) Efekty animowania rzeczy
+4) Ikonka home w menu?
+!!5) Zmniejszać czcionkę h3? na mniejszych ekranach
+6) Czy ustalić wysokość service card na min 307px na większych ekranach?
+7) Dodać marginesy w p na małych ekranach lub padding
+*/
+
+
+
+
 $font-QS: 'Quicksand';
 $font-Exo: 'Exo';
 $font-Lato: 'Lato';
@@ -23,7 +37,7 @@ html, body{
     background-color: #ffff;
     color: #000;
     font-family: $font-QS !important;
-    font-size: 16px;
+    font-size: 18px;
     margin: 0;
     margin-top: 0px !important;
     width: 100%;
@@ -55,7 +69,7 @@ button:focus{
 h3{
     color: $color-turcus-bright;
     border-bottom: 2px solid $color-turcus-bright;
-    line-height: 2;
+    padding: 10px 0px;
     
 }
 
@@ -107,9 +121,10 @@ h3{
 
 
 .button-small{
+    display: inline-block;
     padding: 10px 25px;
     background-color: $color-orange;
-    //color: white;
+    border: 2px solid black;
     font-weight: 600;
     text-transform: uppercase;
     transition: 0.5s ease-in-out;
@@ -400,7 +415,7 @@ label{
 
 /*Navbar*/
 .navbar{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
 
     .nav-link:link, .nav-link:visited {
