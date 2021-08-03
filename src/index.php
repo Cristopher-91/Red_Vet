@@ -28,14 +28,14 @@
           <div class="col-md-6">
             <a class='h3-link' href='/przychodnia'>
               <img class='img-size img-fluid' src='img/Building.jpg'>
-              <h3>Zobacz naszą placówkę</h3>
+              <h3>Nasza placówka</h3>
             </a>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at maximus lectus. Suspendisse a sapien sit amet ex ultricies tempus nec sit amet nulla. Proin sapien augue, egestas vel arcu a, euismod consequat justo</p>
           </div>
           <div class="col-md-6">
             <a class='h3-link' href='/personel'>
               <img class='img-size img-fluid' src='img/About-Photo.jpg'>
-              <h3>Poznaj nasz personel</h3>
+              <h3>Nasz personel</h3>
             </a>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at maximus lectus. Suspendisse a sapien sit amet ex ultricies tempus nec sit amet nulla. Proin sapien augue, egestas vel arcu a, euismod consequat justo</p>
           </div>
@@ -65,12 +65,12 @@
   <section id="services">
     <div class="services-wrapper">
       <div class="container ">
-        <div class='row justify-content-center text-center'>
+        <div class='row justify-content-center text-center '>
           <h2 class="paragraph-title-green">Nasze usługi</h2>
           <p class='margined'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at maximus lectus. Suspendisse a sapien sit amet ex ultricies tempus nec sit amet nulla. Proin sapien augue, egestas vel arcu a, euismod consequat justo. Aenean lacinia, nunc nec euismod tincidunt, velit neque hendrerit urna, ac tempor lorem ex quis ex.
           </p>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center align-items-stretch">
           <div class="col-10 col-sm-6 col-lg-3 mb-4">
             <div class='services-box'>
             <div class="services-box-icon">
@@ -104,10 +104,6 @@
             </div>
           </div>
           </div>
-
-
-
-
 
           <div class="col-10 col-sm-6 col-lg-3 mb-4">
             <div class='services-box'>

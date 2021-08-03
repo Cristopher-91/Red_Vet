@@ -41,7 +41,7 @@ h3 {
   padding: 10px 0px; }
 
 .paralax {
-  min-height: 65vh;
+  min-height: 50vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -169,7 +169,7 @@ h3 {
       background-position: -50% 100%; }
 
 .services-box-content {
-  padding: 1em 0 2em 0;
+  padding: 1em .5em 2em .5em;
   --initialTextColor: #000 ;
   --slideTextColor: #FFF;
   --initialBgColor: #FFF;
