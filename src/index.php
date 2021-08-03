@@ -1,6 +1,6 @@
 <?php
       include_once('head.php');
-  ?>
+?>
 
 <body>
   <?php
@@ -225,7 +225,7 @@
             <h2 class="paragraph-title-green">Kontakt</h2>
         </div>
         <div class="row">
-          <div class="col-sm-12 col-md-6">
+          <div class="col-sm-12 col-md-6 mb-4 mb-md-0">
             <div id="contact-info animation-left">
               <div class="card">
                 <div class="card-body">
@@ -279,13 +279,6 @@
                           <td>nieczynne</td>
                         </tr>
                       </table>
-                      <!-- Poniedziałek: 10:00 - 18:00<br />
-                      Wtorek: 10:00 - 18:00<br />
-                      Środa: 10:00 - 18:00<br />
-                      Czwartek: 10:00 - 16:00<br />
-                      Piątek: 10:00 - 18:00<br />
-                      Sobota: 10:00 - 13:00<br />
-                      Niedziela: nieczynne</p> -->
                   </div>
                 </div>
               </div>

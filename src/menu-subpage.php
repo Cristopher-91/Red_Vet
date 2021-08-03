@@ -1,12 +1,12 @@
-<nav class="navbar navbar-dark fixed-top navbar-expand-lg" id="nav-main">
+<nav class="navbar navbar-white navbar-expand-lg" id="nav-sub">
     <div class="container-fluid">
         <a class="navbar-brand" href="/"><img src="img/Red-Vet-Logo-Flatt.png" alt="Logo Przychodni Red-Vet"
-            class="navbar-brand-logo navbar-brand-logo-white" id="nav-logo" /></a>
+            class="navbar-brand-logo" id="nav-sub-logo" /></a>
         <!--<button type="button" class="navbar-toggler custom-toggler" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         -->
-        <div id="nav-hamburger" class="d-lg-none navbar-hamburger-white">
+        <div id="nav-sub-hamburger" class="d-lg-none navbar-hamburger-white">
           <span></span>
           <span></span>
           <span></span>
