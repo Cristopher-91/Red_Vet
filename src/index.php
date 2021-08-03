@@ -27,14 +27,14 @@
         <div class='row'>
           <div class="col-md-6">
             <a class='h3-link' href='/przychodnia'>
-              <img class='image-about' src='img/Building.jpg'>
+              <img class='img-size img-fluid' src='img/Building.jpg'>
               <h3>Zobacz naszą placówkę</h3>
             </a>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at maximus lectus. Suspendisse a sapien sit amet ex ultricies tempus nec sit amet nulla. Proin sapien augue, egestas vel arcu a, euismod consequat justo</p>
           </div>
           <div class="col-md-6">
             <a class='h3-link' href='/personel'>
-              <img class='image-about' src='img/About-Photo.jpg'>
+              <img class='img-size img-fluid' src='img/About-Photo.jpg'>
               <h3>Poznaj nasz personel</h3>
             </a>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at maximus lectus. Suspendisse a sapien sit amet ex ultricies tempus nec sit amet nulla. Proin sapien augue, egestas vel arcu a, euismod consequat justo</p>

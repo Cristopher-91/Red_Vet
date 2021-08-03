@@ -194,20 +194,10 @@ h3{
     @include wrapper(white);
 }
 
-// .about-photo{
-    
-//     img{
-//         width: 100%;
-//     }
+// .image-about{
+//     width: 100vw;
+//     min-height: 300px;
 // }
-
-.image-about{
-    width: 100vw;
-    height: 35vh;
-    // background-position: center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
-}
 
 .h3-link:hover{
     h3{
