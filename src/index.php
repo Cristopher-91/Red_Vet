@@ -1,41 +1,11 @@
-<!doctype html>
-<html lang="pl">
-
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
-  <!-- Regular CSS-->
-  <link href="https://fonts.googleapis.com/css?family=Exo|Quicksand&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css">
-
-  <!--ScrollReaveal-->
-  <script src="https://unpkg.com/scrollreveal"></script>
-
-  <!--Regular JS-->
-  <script src="js/jQuery.js"></script>
-  <script src="js/script.js"></script>
-  <script src="js/scroll-top.js"></script>
-
-  <!-- FontAwesome -->
-  <script src="https://kit.fontawesome.com/fd94b8186a.js" crossorigin="anonymous"></script>
-
-
-  <title>Przychodnia Weterynaryjna Red-Vet</title>
-</head>
+<?php
+      include_once('head.php');
+  ?>
 
 <body>
   <?php
       include_once('menu.php');
   ?>
-
-
-
 
   <section id="header">
     <div class="header-wrapper">
@@ -363,18 +333,9 @@
 
       </div>
     </div>
-  </section>
-  <button id="scroll-top-button" title="Go to the top"><i class="fas fa-angle-double-up"></i></button>
-  <section id="footer">
-    <div class="footer-wrapper">
-      <div class="container">
-        <div class="row justify-content-center">
-            <p>Copyright &copy; 2021 </span> - <a href="https://www.linkedin.com/in/krzysztof-piasecki-784304b9/">Krzysztof Piasecki</a></p>
-            <!--<p><div>Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>--></p>
-        </div>
-      </div>
-    </div>
-  </section>
+    <?php
+        include_once('footer.php');
+    ?>
 
 
 
