@@ -70,7 +70,7 @@
           <p class='margined'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at maximus lectus. Suspendisse a sapien sit amet ex ultricies tempus nec sit amet nulla. Proin sapien augue, egestas vel arcu a, euismod consequat justo. Aenean lacinia, nunc nec euismod tincidunt, velit neque hendrerit urna, ac tempor lorem ex quis ex.
           </p>
         </div>
-        <div class="row justify-content-center align-items-stretch">
+        <div class="row justify-content-center">
           <div class="col-10 col-sm-6 col-lg-3 mb-4">
             <div class='services-box'>
             <div class="services-box-icon">
